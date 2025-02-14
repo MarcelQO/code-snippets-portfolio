@@ -1,0 +1,385 @@
+{
+    "object": "list",
+    "data": [
+        {
+            "id": "in_1OhWGtAVLAGyPgE4yR73cbjc",
+            "object": "invoice",
+            "account_country": "NO",
+            "account_name": "Quick Order AS",
+            "account_tax_ids": null,
+            "amount_due": 65894,
+            "amount_paid": 0,
+            "amount_remaining": 65894,
+            "amount_shipping": 0,
+            "application": "ca_Fvdc0D3lIZSnKpciamxH5xpzukwagdFY",
+            "application_fee_amount": null,
+            "attempt_count": 1,
+            "attempted": true,
+            "auto_advance": true,
+            "automatic_tax": {
+                "enabled": false,
+                "liability": null,
+                "status": null
+            },
+            "billing": "charge_automatically",
+            "billing_reason": "subscription_update",
+            "charge": null,
+            "collection_method": "charge_automatically",
+            "created": 1707393603,
+            "currency": "nok",
+            "custom_fields": null,
+            "customer": "cus_LcDeKgBjjdU6SC",
+            "customer_address": {
+                "city": "Oslo",
+                "country": "Norge",
+                "line1": "Torggata 13",
+                "line2": null,
+                "postal_code": "0181",
+                "state": null
+            },
+            "customer_email": "qono@quickorder.io",
+            "customer_name": "Quickorder",
+            "customer_phone": null,
+            "customer_shipping": {
+                "address": {
+                    "city": "Oslo",
+                    "country": "Norge",
+                    "line1": "Torggata 13",
+                    "line2": null,
+                    "postal_code": "0181",
+                    "state": null
+                },
+                "name": "Quickorder",
+                "phone": "+4723506590"
+            },
+            "customer_tax_exempt": "none",
+            "customer_tax_ids": [
+                {
+                    "type": "no_vat",
+                    "value": "920142362MVA"
+                }
+            ],
+            "default_payment_method": null,
+            "default_source": null,
+            "default_tax_rates": [],
+            "description": null,
+            "discount": null,
+            "discounts": [],
+            "due_date": null,
+            "effective_at": 1707397245,
+            "ending_balance": 0,
+            "footer": null,
+            "from_invoice": null,
+            "hosted_invoice_url": "https:\/\/invoice.stripe.com\/i\/acct_1FRDqhAVLAGyPgE4\/test_YWNjdF8xRlJEcWhBVkxBR3lQZ0U0LF9QV1pQNGtRQWhldDNxTmV0YnBOaWRLZGNYazhuUjY4LDk4MzY1OTM10200yYespCjj?s=ap",
+            "invoice_pdf": "https:\/\/pay.stripe.com\/invoice\/acct_1FRDqhAVLAGyPgE4\/test_YWNjdF8xRlJEcWhBVkxBR3lQZ0U0LF9QV1pQNGtRQWhldDNxTmV0YnBOaWRLZGNYazhuUjY4LDk4MzY1OTM10200yYespCjj\/pdf?s=ap",
+            "issuer": {
+                "type": "self"
+            },
+            "last_finalization_error": null,
+            "latest_revision": null,
+            "lines": {
+                "object": "list",
+                "data": [
+                    {
+                        "id": "ii_1OhWGtAVLAGyPgE4imC30i0f",
+                        "object": "line_item",
+                        "amount": -134106,
+                        "amount_excluding_tax": -134106,
+                        "currency": "nok",
+                        "description": "Unused time on QuickPOS after 08 Feb 2024",
+                        "discount_amounts": [],
+                        "discountable": false,
+                        "discounts": [],
+                        "invoice": "in_1OhWGtAVLAGyPgE4yR73cbjc",
+                        "invoice_item": "ii_1OhWGtAVLAGyPgE4imC30i0f",
+                        "livemode": false,
+                        "metadata": [],
+                        "period": {
+                            "end": 1709633707,
+                            "start": 1707393600
+                        },
+                        "plan": {
+                            "id": "price_1Lrz1MAVLAGyPgE4IUYy9G4N",
+                            "object": "plan",
+                            "active": true,
+                            "aggregate_usage": null,
+                            "amount": null,
+                            "amount_decimal": null,
+                            "billing_scheme": "tiered",
+                            "created": 1665558388,
+                            "currency": "nok",
+                            "interval": "month",
+                            "interval_count": 1,
+                            "livemode": false,
+                            "metadata": [],
+                            "nickname": "Pro",
+                            "product": "prod_H13t2B62eKFxKg",
+                            "tiers": [
+                                {
+                                    "flat_amount": null,
+                                    "flat_amount_decimal": null,
+                                    "unit_amount": 150000,
+                                    "unit_amount_decimal": "150000",
+                                    "up_to": 1
+                                },
+                                {
+                                    "flat_amount": null,
+                                    "flat_amount_decimal": null,
+                                    "unit_amount": 75000,
+                                    "unit_amount_decimal": "75000",
+                                    "up_to": null
+                                }
+                            ],
+                            "tiers_mode": "graduated",
+                            "transform_usage": null,
+                            "trial_period_days": null,
+                            "usage_type": "licensed"
+                        },
+                        "price": {
+                            "id": "price_1Lrz1MAVLAGyPgE4IUYy9G4N",
+                            "object": "price",
+                            "active": true,
+                            "billing_scheme": "tiered",
+                            "created": 1665558388,
+                            "currency": "nok",
+                            "custom_unit_amount": null,
+                            "livemode": false,
+                            "lookup_key": null,
+                            "metadata": [],
+                            "nickname": "Pro",
+                            "product": "prod_H13t2B62eKFxKg",
+                            "recurring": {
+                                "aggregate_usage": null,
+                                "interval": "month",
+                                "interval_count": 1,
+                                "trial_period_days": null,
+                                "usage_type": "licensed"
+                            },
+                            "tax_behavior": "unspecified",
+                            "tiers_mode": "graduated",
+                            "transform_quantity": null,
+                            "type": "recurring",
+                            "unit_amount": null,
+                            "unit_amount_decimal": null
+                        },
+                        "proration": true,
+                        "proration_details": {
+                            "credited_items": {
+                                "invoice": "in_1OgPChAVLAGyPgE47jnTNeet",
+                                "invoice_line_items": [
+                                    "il_1OgPChAVLAGyPgE40oCDZGKm"
+                                ]
+                            }
+                        },
+                        "quantity": 1,
+                        "subscription": "sub_1OgPChAVLAGyPgE4tBqyWVQj",
+                        "subscription_item": "si_PVQ2tOa7iUDLfa",
+                        "tax_amounts": [],
+                        "tax_rates": [],
+                        "type": "invoiceitem",
+                        "unique_id": "il_1OhWGtAVLAGyPgE4ienK7Hq6",
+                        "unit_amount_excluding_tax": "-134106"
+                    },
+                    {
+                        "id": "ii_1OhURNAVLAGyPgE4i4y5rIP2",
+                        "object": "line_item",
+                        "amount": 50000,
+                        "amount_excluding_tax": 50000,
+                        "currency": "nok",
+                        "description": "Et m\u00e5nedligt kram fra Steffen",
+                        "discount_amounts": [],
+                        "discountable": true,
+                        "discounts": [],
+                        "invoice": "in_1OhWGtAVLAGyPgE4yR73cbjc",
+                        "invoice_item": "ii_1OhURNAVLAGyPgE4i4y5rIP2",
+                        "livemode": false,
+                        "metadata": [],
+                        "period": {
+                            "end": 1709633707,
+                            "start": 1707128107
+                        },
+                        "plan": null,
+                        "price": {
+                            "id": "price_1OhSdvAVLAGyPgE4ss8OWdiE",
+                            "object": "price",
+                            "active": true,
+                            "billing_scheme": "per_unit",
+                            "created": 1707379655,
+                            "currency": "nok",
+                            "custom_unit_amount": null,
+                            "livemode": false,
+                            "lookup_key": null,
+                            "metadata": [],
+                            "nickname": null,
+                            "product": "prod_G8l2wDg1snHxQL",
+                            "recurring": null,
+                            "tax_behavior": "unspecified",
+                            "tiers_mode": null,
+                            "transform_quantity": null,
+                            "type": "one_time",
+                            "unit_amount": 50000,
+                            "unit_amount_decimal": "50000"
+                        },
+                        "proration": false,
+                        "proration_details": {
+                            "credited_items": null
+                        },
+                        "quantity": 1,
+                        "subscription": "sub_1OgPChAVLAGyPgE4tBqyWVQj",
+                        "tax_amounts": [],
+                        "tax_rates": [],
+                        "type": "invoiceitem",
+                        "unique_id": "il_1OhUROAVLAGyPgE4Zb8MRm1V",
+                        "unit_amount_excluding_tax": "50000"
+                    },
+                    {
+                        "id": "sli_19ce2dAVLAGyPgE40659883c",
+                        "object": "line_item",
+                        "amount": 150000,
+                        "amount_excluding_tax": 150000,
+                        "currency": "nok",
+                        "description": "1 enhet \u00d7 QuickPOS (Tier 1 at kr1,500.00 \/ month)",
+                        "discount_amounts": [],
+                        "discountable": true,
+                        "discounts": [],
+                        "invoice": "in_1OhWGtAVLAGyPgE4yR73cbjc",
+                        "livemode": false,
+                        "metadata": [],
+                        "period": {
+                            "end": 1709899200,
+                            "start": 1707393600
+                        },
+                        "plan": {
+                            "id": "price_1Lrz1MAVLAGyPgE4IUYy9G4N",
+                            "object": "plan",
+                            "active": true,
+                            "aggregate_usage": null,
+                            "amount": null,
+                            "amount_decimal": null,
+                            "billing_scheme": "tiered",
+                            "created": 1665558388,
+                            "currency": "nok",
+                            "interval": "month",
+                            "interval_count": 1,
+                            "livemode": false,
+                            "metadata": [],
+                            "nickname": "Pro",
+                            "product": "prod_H13t2B62eKFxKg",
+                            "tiers": [
+                                {
+                                    "flat_amount": null,
+                                    "flat_amount_decimal": null,
+                                    "unit_amount": 150000,
+                                    "unit_amount_decimal": "150000",
+                                    "up_to": 1
+                                },
+                                {
+                                    "flat_amount": null,
+                                    "flat_amount_decimal": null,
+                                    "unit_amount": 75000,
+                                    "unit_amount_decimal": "75000",
+                                    "up_to": null
+                                }
+                            ],
+                            "tiers_mode": "graduated",
+                            "transform_usage": null,
+                            "trial_period_days": null,
+                            "usage_type": "licensed"
+                        },
+                        "price": {
+                            "id": "price_1Lrz1MAVLAGyPgE4IUYy9G4N",
+                            "object": "price",
+                            "active": true,
+                            "billing_scheme": "tiered",
+                            "created": 1665558388,
+                            "currency": "nok",
+                            "custom_unit_amount": null,
+                            "livemode": false,
+                            "lookup_key": null,
+                            "metadata": [],
+                            "nickname": "Pro",
+                            "product": "prod_H13t2B62eKFxKg",
+                            "recurring": {
+                                "aggregate_usage": null,
+                                "interval": "month",
+                                "interval_count": 1,
+                                "trial_period_days": null,
+                                "usage_type": "licensed"
+                            },
+                            "tax_behavior": "unspecified",
+                            "tiers_mode": "graduated",
+                            "transform_quantity": null,
+                            "type": "recurring",
+                            "unit_amount": null,
+                            "unit_amount_decimal": null
+                        },
+                        "proration": false,
+                        "proration_details": {
+                            "credited_items": null
+                        },
+                        "quantity": 1,
+                        "subscription": "sub_1OgPChAVLAGyPgE4tBqyWVQj",
+                        "subscription_item": "si_PVQ2tOa7iUDLfa",
+                        "tax_amounts": [],
+                        "tax_rates": [],
+                        "type": "subscription",
+                        "unique_id": "il_1OhWGtAVLAGyPgE4gsgGCavq",
+                        "unit_amount_excluding_tax": "150000"
+                    }
+                ],
+                "has_more": false,
+                "total_count": 3,
+                "url": "\/v1\/invoices\/in_1OhWGtAVLAGyPgE4yR73cbjc\/lines"
+            },
+            "livemode": false,
+            "metadata": [],
+            "next_payment_attempt": 1707850845,
+            "number": "20159204-0010",
+            "on_behalf_of": null,
+            "paid": false,
+            "paid_out_of_band": false,
+            "payment_intent": "pi_3OhXDeAVLAGyPgE40i7rhJqJ",
+            "payment_settings": {
+                "default_mandate": null,
+                "payment_method_options": null,
+                "payment_method_types": null
+            },
+            "period_end": 1707393600,
+            "period_start": 1707393600,
+            "post_payment_credit_notes_amount": 0,
+            "pre_payment_credit_notes_amount": 0,
+            "quote": null,
+            "receipt_number": null,
+            "rendering": null,
+            "rendering_options": null,
+            "shipping_cost": null,
+            "shipping_details": null,
+            "starting_balance": 0,
+            "statement_descriptor": null,
+            "status": "open",
+            "status_transitions": {
+                "finalized_at": 1707397245,
+                "marked_uncollectible_at": null,
+                "paid_at": null,
+                "voided_at": null
+            },
+            "subscription": "sub_1OgPChAVLAGyPgE4tBqyWVQj",
+            "subscription_details": {
+                "metadata": []
+            },
+            "subtotal": 65894,
+            "subtotal_excluding_tax": 65894,
+            "tax": null,
+            "tax_percent": null,
+            "test_clock": null,
+            "total": 65894,
+            "total_discount_amounts": [],
+            "total_excluding_tax": 65894,
+            "total_tax_amounts": [],
+            "transfer_data": null,
+            "webhooks_delivered_at": 1707393607
+        }
+    ],
+    "has_more": false,
+    "url": "\/v1\/invoices"
+}
